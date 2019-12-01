@@ -1,0 +1,98 @@
+{
+	"info": {
+		"_postman_id": "74d75906-9493-4074-b122-9af1488e2285",
+		"name": "Ambar-Forecast",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Save data for Natividade",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/cidade?id=3412",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"cidade"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "3412"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Save data for Sao Paulo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/cidade?id=3412",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"cidade"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "3412"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Analyze data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/analyze?data_inicial=2019-12-01&data_final=2019-12-07",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"analyze"
+					],
+					"query": [
+						{
+							"key": "data_inicial",
+							"value": "2019-12-01"
+						},
+						{
+							"key": "data_final",
+							"value": "2019-12-07"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
