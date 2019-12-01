@@ -1,5 +1,5 @@
 ## Description:
-Simple RESTFul Flask application (still in development) with bunch of automated API tests. Main reason for developing this app is writing automated tests against exposed endpoints (with usage of Python requests library, Postman (form manual testing) and REST Assured (Java) in the near future).
+Forecast api to get climatempo data and get personalized reports based on date
 
 So far active endpoints are:
 
