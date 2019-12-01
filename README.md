@@ -32,7 +32,7 @@ $ activate
 4.Go to root folder of the project, install required modules:
     
 ```
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
 5.To run app:
@@ -46,8 +46,8 @@ Then in Postman (have to be installed on your system), you can import collection
 6.To run automated API tests, open terminal/console and run app, then open another terminal/console window, go to __tests__ folder and enter command:
 
 ```
-python tests\forecast_endpoint_test.py
+$ python tests\forecast_endpoint_test.py
 ```
 ```
-python tests\model_test.py
+$ python tests\model_test.py
 ```
